@@ -102,7 +102,7 @@ def enhance_image():
             denoise_strength=0.35,
             num_inference_steps=30,
             solver="DPMSolver",
-            api_name="/proces"
+            api_name="/process"
         )
 
         enhanced_path = result[1]
